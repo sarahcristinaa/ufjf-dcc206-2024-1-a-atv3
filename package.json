@@ -1,15 +1,20 @@
 {
-  "name": "psyduck",
-  "private": true,
-  "version": "0.0.0",
-  "type": "module",
-  "scripts": {
-    "dev": "vite",
-    "build": "tsc && vite build",
-    "preview": "vite preview"
+  "name": "@esbuild/linux-x64",
+  "version": "0.21.5",
+  "description": "The Linux 64-bit binary for esbuild, a JavaScript bundler.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/evanw/esbuild.git"
   },
-  "devDependencies": {
-    "typescript": "^5.2.2",
-    "vite": "^5.1.6"
-  }
+  "license": "MIT",
+  "preferUnplugged": true,
+  "engines": {
+    "node": ">=12"
+  },
+  "os": [
+    "linux"
+  ],
+  "cpu": [
+    "x64"
+  ]
 }
